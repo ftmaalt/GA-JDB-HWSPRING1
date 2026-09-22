@@ -47,6 +47,14 @@ GET: http://localhost:8080/api/games/1213
 
 <img width="315" height="533" alt="image" src="https://github.com/user-attachments/assets/f7d1db80-d2e7-4532-81cf-663d96de9a42" />
 
+
+GET: http://localhost:8080/api/games/favourite
+
+
+<img width="485" height="514" alt="image" src="https://github.com/user-attachments/assets/adb789be-8410-4b7a-8175-4599fb152af2" />
+
+
+
 POST: Creating a new game;; http://localhost:8080/api/games
 
 <img width="484" height="519" alt="image" src="https://github.com/user-attachments/assets/9cdd5ccb-b426-4d38-aed0-720f78c59e76" />
@@ -64,3 +72,27 @@ DELETE (duplicate game);; http://localhost:8080/api/games/1256
 <img width="467" height="507" alt="image" src="https://github.com/user-attachments/assets/03cf19f0-8f86-4946-94e3-db04f5b3c478" />
 
 <img width="476" height="382" alt="image" src="https://github.com/user-attachments/assets/9aab7f2f-3276-4f44-8d7d-af594a397001" />
+
+
+GET: http://localhost:8080/api/games/summary
+
+<img width="422" height="346" alt="image" src="https://github.com/user-attachments/assets/a2a92481-8da5-47c3-9c18-c29f1562f73a" />
+
+
+GET:http://localhost:8080/api/games/search?name=witcher
+
+
+<img width="485" height="519" alt="image" src="https://github.com/user-attachments/assets/ca7e2c05-529a-4b25-a908-010f1c24e5d4" />
+
+FILTER:
+GET:    http://localhost:8080/api/games/filter?genre=RPG&minRating=9
+
+
+<img width="478" height="497" alt="image" src="https://github.com/user-attachments/assets/b7aea0c5-6f81-41c7-919d-047bd02f98e9" />
+
+
+GET:    http://localhost:8080/api/games/filter?year=2016
+
+<img width="481" height="505" alt="image" src="https://github.com/user-attachments/assets/89eb146e-b587-42ee-896c-fbc3bf3c64a9" />
+
+
